@@ -13,7 +13,7 @@ import practice_model
 
 #results = {'бабочка':0,'курица':0,'корова':0,'собака':0,'слон':0,'лошадь':0,'кошачий':0,'овца':0,'паук':0,'белка':0}
 result_storage_path = 'images'
-token='5463967922:AAEAY86KyGilvR_ehw9F68k8ZDwtYOdZJ34'
+token='********:***************************'
 bot=telebot.TeleBot(token)
 
 with open('results.pickle', 'rb') as f:
